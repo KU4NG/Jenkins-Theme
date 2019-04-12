@@ -11,13 +11,13 @@
 ##最终效果
 
 【1】主页：
-![mahua](mahua-logo.jpg)
+![jobs](https://github.com/PythonTra1nee/Jenkins-Theme/blob/master/image/jobs.jpg?raw=true)
 
 【2】配置页：
-![mahua](mahua-logo.jpg)
+![setting](https://github.com/PythonTra1nee/Jenkins-Theme/blob/master/image/setting.jpg?raw=true)
 
 【3】配置详情页：
-![mahua](mahua-logo.jpg)
+![setting_detail](https://github.com/PythonTra1nee/Jenkins-Theme/blob/master/image/setting_detail.jpg?raw=true)
 
 ##其他说明
 
