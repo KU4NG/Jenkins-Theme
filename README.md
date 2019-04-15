@@ -2,6 +2,10 @@
 
 闲来无事，发现 Jenkins 的默认主题实在看的有点腻了，便想要不自己写一套？于是有了这个项目。
 
+具体更新内容可以看我的博客园：
+
+https://www.cnblogs.com/Dy1an/p/10696849.html
+
 ## Jenkins任何使用主题？
 
 * Jenkins 在安装之后需要安装插件：Simple Theme Plugin
