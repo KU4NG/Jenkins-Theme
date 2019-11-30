@@ -1,0 +1,481 @@
+/* 全局初始化样式 */
+* {
+    font-size: 13px;
+    font-weight: normal;
+    color: #161823 !important;
+    letter-spacing: 1px;
+}
+
+div {
+    border-radius: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: red !important;
+}
+
+a:active {
+    text-decoration: none !important;
+}
+
+body, table, form, input, td, th, p, textarea, select, #tasks .task {
+    font-size: 12px !important;
+}
+
+/* 顶部栏 */
+#header {
+    background-color: #161823;
+}
+
+#header #visible-am-container a {
+    color: #fff !important;
+}
+
+#header .login a {
+    color: #fff !important;
+    font-size: 12px;
+}
+
+#header .login b {
+    color: #fff !important;
+    font-size: 12px;
+}
+
+#header #visible-am-button {
+    background-color: #CC3333;
+}
+
+#header #jenkins-name-icon {
+    left: 40px;
+    bottom: -3px;
+    height: 30px;
+    width: 120px;
+}
+
+#header .searchbox {
+    padding: 8px 11px;
+}
+
+/* 面包屑 */
+#breadcrumbBar a {
+    color: #fff !important;
+    font-size: 12px !important;
+}
+
+#breadcrumbBar .top-sticker-inner {
+    background-color: #CC3333;
+}
+
+#breadcrumb-menu-target a {
+    color: #161823 !important;
+}
+
+#breadcrumbs {
+    border-bottom-width: 0 !important;
+}
+
+#breadcrumbs {
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+#breadcrumbs LI {
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+#breadcrumbs LI:hover {
+    background-color: #036 !important
+}
+
+#breadcrumbs .mouseIsOverMenuSelector {
+    background-color: transparent !important
+}
+
+/* 侧边栏 */
+@media(min-width:1170px) {
+	body.two-column #side-panel {
+		width: 300px
+	}
+
+	body.two-column #main-panel {
+		margin-left: 300px
+	}
+}
+
+#side-panel {
+    position: absolute;
+    top: 65px;
+    bottom: 0;
+    background-color: #161823;
+}
+
+#side-panel a,b {
+    color: #fff !important;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+#side-panel #tasks .task {
+    position: relative;
+    left: -15px;
+    width: 300px;
+    max-width: 300px;
+    margin-bottom: 0;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 13px;
+}
+
+#side-panel #tasks .task a::before {
+    content: "配置：";
+}
+
+#side-panel #tasks .task:hover {
+    background-color: #CC3333;
+}
+
+#side-panel .task-icon-link {
+    display: none;
+}
+
+#side-panel .col-xs-24 {
+    padding: 5px 5px 5px 5px !important;
+}
+
+#side-panel .pane-header {
+    font-size: 13px;
+    font-weight: normal;
+    color: #161823;
+    border-radius: 0;
+}
+
+#side-panel .pane-header a {
+    font-size: 13px;
+    font-weight: normal;
+    color: #161823 !important;
+}
+
+#side-panel .pane-frame {
+    border: solid 1px #f0f0f0;
+    border-radius: 0;
+}
+
+#side-panel td {
+    font-size: 9px !important;
+    color: #fff !important;
+    padding: 5px 2px 5px 5px;
+    text-align: left !important;
+    height: 20px;
+    line-height: 20px;
+}
+
+/* 内容主体 */
+#main-panel {
+    padding: 10px 10px 20px 10px;
+}
+
+#main-panel b {
+    color: #161823 !important;
+}
+
+#main-panel #description {
+    display: none;
+}
+
+#main-panel .tabBar {
+    background-color: #161823;
+}
+
+#main-panel .tabBar .tab:first-child {
+    margin-left: 0;
+}
+
+#main-panel .tabBar [type=radio]:checked~a {
+    border: none;
+    background: none;
+    color: #fff !important;
+}
+
+#main-panel .tabBar .tab a.addTab {
+    color: #fff !important;
+    border: none;
+}
+
+#main-panel .tabBar .tab a {
+    color: #fff !important;
+    font-weight: normal;
+    border: none;
+}
+
+#main-panel .tabBar .tab a:hover {
+    background: none;
+    color: red !important;
+}
+
+#main-panel .tabBar .tab a.addTab:hover {
+    background: none;
+    color: red !important;
+}
+
+#main-panel table.stripped-odd tr:nth-child(odd) {
+    background: #f4f4f4;
+}
+
+#main-panel .bigtable th a {
+    font-weight: bold !important;
+    font-size: 13px !important; 
+}
+
+#main-panel .icon-xlg {
+    width: 26px !important;
+    height: 26px !important;
+}
+
+#main-panel .icon-md {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+#main-panel .icon-sm {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+#main-panel h1 img {
+    width: 26px !important;
+    height: 26px !important;
+}
+
+#main-panel .bigtable td {
+    padding: 7px;
+}
+
+#main-panel .bigtable td,a {
+    font-size: 12px;
+}
+
+#main-panel table.stripped tr:hover,
+table.stripped-even tr:hover,
+table.stripped-odd tr:hover {
+    background: #ebebeb !important
+}
+
+#main-panel table.stripped tr:hover td,
+table.stripped-even tr:hover td,
+table.stripped-odd tr:hover td {
+    color: #fff !important
+}
+
+#main-panel table.stripped tr:hover td a,
+table.stripped-even tr:hover td a,
+table.stripped-odd tr:hover td a {
+    color: #fff !important
+}
+
+#rss-bar span a {
+    font-size: 12px;
+}
+
+
+/* 底部 */
+footer {
+	background-color: transparent;
+	border-top: 0;
+	border-bottom: 0
+}
+
+footer a,span {
+	font-size: 12px;
+}
+
+/* 新建 item */
+#add-item-panel .add-item-name {
+    padding: 20px 10px;
+}
+
+#add-item-panel .add-item-name label {
+    font-size: 18px;
+}
+
+#add-item-panel input {
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #999;
+    min-width: 300px;
+    border-radius: 3px;
+    line-height: 1.4em;
+    font-size: 14px;
+}
+
+#add-item-panel .setting-input {
+    width: 50%;
+}
+
+#add-item-panel .icon:before {
+    border: none !important;
+    background: none !important;
+}
+
+#add-item-panel .icon {
+    border: none !important;
+    background: none !important;
+}
+
+#add-item-panel .icon img {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+#add-item-panel .categories.flat .category:first-child {
+    padding: 0;
+}
+
+#add-item-panel .categories.flat .category:last-child {
+    padding: 0;
+}
+
+.j-item-options li.active {
+    background-color: #CC3333;
+    border: none;
+    box-shadow: none;
+}
+
+.j-item-options li {
+    border-radius: 0;
+    border: none;
+}
+
+.j-item-options li:hover {
+    background: #CC3333;
+}
+
+.j-item-options li.active .desc {
+    color: #fff !important;
+}
+
+.j-item-options li.active span {
+    color: #fff !important;
+}
+
+.j-item-options li:hover .desc {
+    color: #fff !important;
+}
+
+.j-item-options li:hover span {
+    color: #fff !important;
+}
+
+#add-item-panel .item-copy p.description {
+    font-size: 13px;
+}
+
+/* 项目详情 */
+#buildHistory .pane-footer {
+    display: none;
+}
+
+table.stripped tr:nth-child(even) {
+    background: #161823;
+}
+
+table.stripped tr:hover, table.stripped-even tr:hover, table.stripped-odd tr:hover {
+    background: #161823 !important;
+}
+
+#buildHistory .build-row-cell a {
+    font-size: 10px;
+}
+
+.build-row.model-link-active {
+	background: #161823!important
+}
+
+#jenkins .yui-button.primary .btn, #jenkins .yui-button.primary button {
+    background-color: #036;
+    color: #eee !important;
+    border: 1px solid #036;
+}
+
+#jenkins .yui-button .btn, #jenkins .yui-button button {
+    padding: 2px 20px;
+    border-radius: 0;
+    font-weight: normal;
+}
+
+#add-item-panel form > .footer .btn-decorator button[type=submit] {
+    padding: 0px 30px;
+    background-color: #036;
+    color: #eee !important;
+    border: 1px solid #036;
+    border-radius: 0px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+#add-item-panel form > .footer .btn-decorator {
+    padding: 10px 50px;
+}
+
+.call-to-action a, .call-to-action a:visited {
+    font-size: 18px;
+}
+
+.danger button {
+    color: #fff !important;
+}
+
+.yui-button {
+    vertical-align: middle !important;
+}
+
+.section-header {
+    font-size: 17px;
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+}
+
+h1 {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.manage-option dl dt {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+dt {
+	font-weight: normal;
+}
+
+.manage-option dl dd {
+	font-size: 10px;
+}
+
+#visible-am-container div#visible-am-list {
+	padding: 10px!important;
+	border-radius: 0!important
+}
+
+#visible-am-container div#visible-am-list a {
+	color: #CC3333!important
+}
+
+#visible-am-container .am-message {
+	margin-bottom: 0!important
+}
