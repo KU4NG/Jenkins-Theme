@@ -31,7 +31,16 @@ a:active {
     text-decoration: none !important;
 }
 
-body, table, form, input, td, th, p, textarea, select, #tasks .task {
+body,
+table,
+form,
+input,
+td,
+th,
+p,
+textarea,
+select,
+#tasks .task {
     font-size: 12px !important;
 }
 
@@ -107,13 +116,13 @@ body, table, form, input, td, th, p, textarea, select, #tasks .task {
 
 /* 侧边栏 */
 @media(min-width:1170px) {
-	body.two-column #side-panel {
-		width: 300px
-	}
+    body.two-column #side-panel {
+        width: 300px
+    }
 
-	body.two-column #main-panel {
-		margin-left: 300px
-	}
+    body.two-column #main-panel {
+        margin-left: 300px
+    }
 }
 
 #side-panel {
@@ -123,7 +132,8 @@ body, table, form, input, td, th, p, textarea, select, #tasks .task {
     background-color: #161823;
 }
 
-#side-panel a,b {
+#side-panel a,
+b {
     color: #fff !important;
     font-size: 13px;
     letter-spacing: 2px;
@@ -179,8 +189,10 @@ body, table, form, input, td, th, p, textarea, select, #tasks .task {
     color: #fff !important;
     padding: 5px 2px 5px 5px;
     text-align: left !important;
-    height: 20px;
-    line-height: 20px;
+}
+
+#side-panel td a {
+    font-size: 10px !important;
 }
 
 /* 内容主体 */
@@ -237,7 +249,7 @@ body, table, form, input, td, th, p, textarea, select, #tasks .task {
 
 #main-panel .bigtable th a {
     font-weight: bold !important;
-    font-size: 13px !important; 
+    font-size: 13px !important;
 }
 
 #main-panel .icon-xlg {
@@ -264,7 +276,8 @@ body, table, form, input, td, th, p, textarea, select, #tasks .task {
     padding: 7px;
 }
 
-#main-panel .bigtable td,a {
+#main-panel .bigtable td,
+a {
     font-size: 12px;
 }
 
@@ -293,13 +306,14 @@ table.stripped-odd tr:hover td a {
 
 /* 底部 */
 footer {
-	background-color: transparent;
-	border-top: 0;
-	border-bottom: 0
+    background-color: transparent;
+    border-top: 0;
+    border-bottom: 0
 }
 
-footer a,span {
-	font-size: 12px;
+footer a,
+span {
+    font-size: 12px;
 }
 
 /* 新建 item */
@@ -392,7 +406,9 @@ table.stripped tr:nth-child(even) {
     background: #161823;
 }
 
-table.stripped tr:hover, table.stripped-even tr:hover, table.stripped-odd tr:hover {
+table.stripped tr:hover,
+table.stripped-even tr:hover,
+table.stripped-odd tr:hover {
     background: #161823 !important;
 }
 
@@ -401,22 +417,24 @@ table.stripped tr:hover, table.stripped-even tr:hover, table.stripped-odd tr:hov
 }
 
 .build-row.model-link-active {
-	background: #161823!important
+    background: #161823 !important
 }
 
-#jenkins .yui-button.primary .btn, #jenkins .yui-button.primary button {
+#jenkins .yui-button.primary .btn,
+#jenkins .yui-button.primary button {
     background-color: #036;
     color: #eee !important;
     border: 1px solid #036;
 }
 
-#jenkins .yui-button .btn, #jenkins .yui-button button {
+#jenkins .yui-button .btn,
+#jenkins .yui-button button {
     padding: 2px 20px;
     border-radius: 0;
     font-weight: normal;
 }
 
-#add-item-panel form > .footer .btn-decorator button[type=submit] {
+#add-item-panel form>.footer .btn-decorator button[type=submit] {
     padding: 0px 30px;
     background-color: #036;
     color: #eee !important;
@@ -427,11 +445,12 @@ table.stripped tr:hover, table.stripped-even tr:hover, table.stripped-odd tr:hov
     line-height: 25px;
 }
 
-#add-item-panel form > .footer .btn-decorator {
+#add-item-panel form>.footer .btn-decorator {
     padding: 10px 50px;
 }
 
-.call-to-action a, .call-to-action a:visited {
+.call-to-action a,
+.call-to-action a:visited {
     font-size: 18px;
 }
 
@@ -455,27 +474,191 @@ h1 {
 }
 
 .manage-option dl dt {
-	font-size: 14px;
-	line-height: 24px;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 dt {
-	font-weight: normal;
+    font-weight: normal;
 }
 
 .manage-option dl dd {
-	font-size: 10px;
+    font-size: 10px;
 }
 
 #visible-am-container div#visible-am-list {
-	padding: 10px!important;
-	border-radius: 0!important
+    padding: 10px !important;
+    border-radius: 0 !important
 }
 
 #visible-am-container div#visible-am-list a {
-	color: #CC3333!important
+    color: #CC3333 !important
 }
 
 #visible-am-container .am-message {
-	margin-bottom: 0!important
+    margin-bottom: 0 !important
+}
+
+td.progress-bar-done {
+    padding: 2px !important;
+    height: 5px;
+}
+
+td.progress-bar-left {
+    padding: 2px !important;
+    height: 5px;
+}
+
+@media(max-width:970px) {
+    a {
+        cursor: pointer !important;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #header {
+        position: relative;
+        margin: 5px 5px;
+        width: calc(100% - 10px) !important;
+        overflow-y: hidden !important;
+    }
+
+    #breadcrumbBar {
+        display: none;
+    }
+
+    #page-body {
+        width: 100%;
+    }
+
+    #side-panel {
+        position: relative;
+        width: calc(100% - 10px) !important;
+        top: -1px;
+        bottom: auto;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    #side-panel #tasks {
+        width: 100%;
+    }
+
+    #main-panel {
+        padding: 5px;
+    }
+
+    #side-panel #tasks .task {
+        width: 100%;
+        max-width: 100%;
+        left: 0;
+        padding-left: 0;
+    }
+
+    #main-panel a,
+    td {
+        font-size: 10px !important;
+    }
+
+    #main-panel #projectstatus .header {
+        display: none;
+    }
+
+    #main-panel .col-md-20 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #main-panel .pane-frame table {
+        display: inline;
+    }
+
+    .jenkins-config-widgets {
+        display: none;
+    }
+
+    .jenkins-config {
+        border-top: 1px solid #cccccc !important;
+    }
+
+    table.pane {
+        border: none;
+    }
+
+    .pane-frame {
+        border: none;
+    }
+
+    #projectstatus tbody tr:last-child td:first-child {
+        border: none;
+        border-bottom-left-radius: 0;
+    }
+
+    #add-item-panel .setting-input {
+        width: 100%;
+    }
+
+    #add-item-panel input {
+        min-width: 200px;
+        width: 100%;
+    }
+
+    #add-item-panel .j-item-options li .desc {
+        display: none;
+    }
+
+    #add-item-panel .icon img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    #add-item-panel .j-item-options li {
+        min-height: auto;
+    }
+
+    #add-item-panel .col-md-20 {
+        padding: 0;
+    }
+
+    #add-item-panel form>.footer .btn-decorator {
+        padding: 10px;
+        width: 100%;
+        height: 80px;
+        position: initial;
+        border: none;
+        bottom: auto;
+    }
+
+    #add-item-panel .icon:before {
+        display: none;
+    }
+
+    #add-item-panel form>.footer .btn-decorator button {
+        width: 100%;
+    }
+
+    #add-item-panel .add-item-copy .icon {
+        display: none;
+    }
+
+    #add-item-panel .item-copy .add-item-copy {
+        padding-left: 0;
+    }
+
+    #add-item-panel .item-copy {
+        padding: 5px;
+    }
+
+    #add-item-panel form>.footer {
+        height: 80px;
+        position: initial;
+    }
+
+    footer {
+        display: none;
+    }
+
 }
